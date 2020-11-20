@@ -6956,6 +6956,10 @@ ul.timeline li:nth-child(odd):hover .title {
   border-radius: 2px;
 }
 
+#newsletter-form form .form-input input::placeholder {
+  color: black !important;
+}
+
 @media screen and (max-width: 991px) {
   #newsletter-form form .form-input input {
     width: 100%;
