@@ -1771,9 +1771,9 @@ img[class~="center"] {
     margin-left: -50px !important;
     margin-right: -50px !important;
   }
-  /*#main-wrap {*/
-  /*  padding: 0 15px;*/
-  /*}*/
+  #main-wrap {
+    padding: 0 15px;
+  }
 }
 
 .container {
@@ -3263,7 +3263,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
 
 @media screen and (max-width: 480px) {
   #page-content #flexslider.small, #page-content #flexslider-nav.small {
-    height: calc(100vh) !important;
+    height: calc(100vh - 102px) !important;
   }
 }
 
@@ -3273,7 +3273,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
 
 @media screen and (max-width: 480px) {
   #page-content #flexslider.small ul li, #page-content #flexslider-nav.small ul li {
-    height: calc(100vh) !important;
+    height: calc(100vh - 102px) !important;
   }
 }
 
@@ -3389,7 +3389,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
 
 @media screen and (max-width: 480px) {
   #page-content #flexslider-nav ul li .text {
-    padding: 50px 75px;
+    padding: 50px 64px;
   }
 }
 
@@ -7652,4 +7652,8 @@ button.mfp-close:hover {
 
 .bg-gray {
   background-color: #f6f6f6;
+}
+
+.cpadding {
+  padding: 25px 0;
 }
