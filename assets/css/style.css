@@ -4685,6 +4685,7 @@ aside.left form .form-input span.form-button {
   align-items: flex-start;
   margin-bottom: 15px;
   margin-top: 15px;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 323px) {
@@ -4698,6 +4699,7 @@ aside.left form .form-input span.form-button {
   width: 20%;
   text-align: center;
   margin: 6px;
+  flex-shrink: 0;
 }
 
 .content-section .partners .partner a img {
@@ -4725,10 +4727,8 @@ aside.left form .form-input span.form-button {
   .content-section .partners .partner {
     min-height: 164px;
     width: 45%;
-    flex-shrink: 0;
   }
   .content-section .partners {
-    flex-wrap: wrap;
     padding: 0 24px;
   }
   .faq-section {
