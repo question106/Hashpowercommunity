@@ -1226,10 +1226,20 @@ img[class~="center"] {
   .padding-top-ultra {
     padding-top: 180px !important;
   }
+  .padding-lg {
+    padding: 25px 0 !important;
+  }
+  .list-of-info {
+    padding: 0 13px;
+  }
+  .table-c {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .padding-lg {
-  padding: 75px 0 !important;
+  padding: 75px 0;
 }
 
 .padding-top-lg {
@@ -1761,6 +1771,9 @@ img[class~="center"] {
     margin-left: -50px !important;
     margin-right: -50px !important;
   }
+  /*#main-wrap {*/
+  /*  padding: 0 15px;*/
+  /*}*/
 }
 
 .container {
@@ -4711,6 +4724,16 @@ aside.left form .form-input span.form-button {
 @media screen and (max-width: 991px) {
   .content-section .partners .partner {
     min-height: 164px;
+    width: 45%;
+    flex-shrink: 0;
+  }
+  .content-section .partners {
+    flex-wrap: wrap;
+    padding: 0 24px;
+  }
+  .faq-section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
 
@@ -6064,7 +6087,6 @@ picture.section.right img {
   position: absolute;
   right: 50px;
   bottom: 0;
-  max-width: 100%;
   max-width: calc(100% - 100px);
 }
 
@@ -6074,6 +6096,18 @@ picture.section.right img {
     right: inherit;
     left: 0px;
     max-width: 100%;
+  }
+  .side-image .hash-rate {
+    font-size: 50px;
+  }
+  .side-image {
+    padding-bottom: 70px;
+  }
+  .side-image .hash-rate-1 {
+    font-size: 23px;
+  }
+  .side-image .h-date {
+    font-size: 16px;
   }
 }
 
