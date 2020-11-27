@@ -7798,6 +7798,74 @@ table {
   text-align: center;
 }
 
+.modaal-container .content-section .text{ 
+  text-align: center;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-mobile-form .box-form {
+
+  box-shadow:none;
+
+}
+
+.login-mobile-form .side-image .hash-subtitle {
+  margin-bottom: 55px;
+  align-self: center;
+  justify-content: center;
+  margin-left: 0px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: -20px;
+}
+
+.login-mobile-form .side-image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0%;
+}
+.login-mobile-login. .padding-onlytop-md{
+  padding-top: 0px;
+}
+.modaal-inner-wrapper{
+  padding:0px !important;
+}
+
+.modaal-wrapper .title{
+  padding-top: 50px;
+}
+
+.modaal-wrapper .mobile-form{
+  padding-top: 0px !important;
+}
+
+#contact-form > div > div:nth-child(1) > label > sup{
+  display:none;
+}
+
+#contact-form > div > div:nth-child(2) > label > sup{
+  display: none;
+}
+
+#contact-form > div > div:nth-child(2) > div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modaal-wrapper h3{
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 14px;
+}
+.register-form-mobile h3{
+  font-size: 13px;
+}
+
 @media screen and (max-width: 650px) {
 .content-section .partners .partner a .img_txt{
   font-size: 10px;
