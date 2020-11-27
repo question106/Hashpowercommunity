@@ -5804,6 +5804,7 @@ span.contact-info em {
 @media screen and (max-width: 480px) {
   .box-form {
     padding: 25px;
+
   }
 }
 
@@ -7690,6 +7691,113 @@ button.mfp-close:hover {
 .table-mobile{
   display: none;
 }
+
+.bitfury-logo-main-slide{
+  max-width:29%;
+  padding-bottom:25px;
+}
+
+.header-equal-height{
+  display: none;
+}
+.mobile{
+  display: none;
+}
+
+.desktop{
+  display: block;
+}
+
+.range-to-buy{
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: 500;
+}
+
+.table td {
+  border: none;
+}
+
+
+.cloudmining-table .table{
+  border: none;
+}
+
+.cloudmining-table table{
+  border: none;
+}
+#page-content > div:nth-child(2) > div > div.col-md-12 > div > table > tbody > tr > td{
+  border:none;
+}
+
+table {
+  width: 100%;
+  margin: 0 0 25px 0;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  border: 1px solid #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+  border: 1px solid #fff;
+}
+
+.cloudmining-table{
+  padding: 0px;
+}
+
+.table-responsive {
+  min-height: .01%;
+  overflow-x: unset;
+  width: 100%;
+}
+
+.desktop-mining-price{
+  display:block;
+}
+.mobile-mining-price{
+  display:none;
+}
+
+.third-table a.btn-alt {
+  padding: 0;
+  padding-right: 30px;
+  padding-left: 30px;
+  height: 38px;
+  line-height: 42px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  overflow: hidden;
+  outline: none;
+  border-radius: 2px;
+  font-weight: 500;
+  color: white;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 35px;
+  text-decoration: none !important;
+  transition: all .4s ease;
+  background-color: #3367D6;
+}
+
+.uhpbonusimage img{
+  width: 70% !important;
+  text-align: center;
+}
+
+.uhpbonusimage{
+  text-align: center;
+}
+
 @media screen and (max-width: 650px) {
 .content-section .partners .partner a .img_txt{
   font-size: 10px;
@@ -7725,5 +7833,150 @@ button.mfp-close:hover {
 
 .table-desktop{
   display: none;
+}
+
+.margin-bottom-medium{
+  margin-bottom: 37px;
+}
+
+.contact-box{
+  text-align: center;
+}
+
+.howtostep-icon{
+  display: flex !important;
+  justify-content: center;
+}
+
+.bitfury-logo-main-slide{
+  max-width:81%;
+  padding-bottom:25px;
+}
+
+.main-slide-button{
+  display: block;
+  align-items: center;
+  margin: 0px !important;
+}
+
+.header-equal-height{
+  display: block;
+  height: 102px;
+}
+
+#header{
+  position: fixed;
+}
+#home-wrap > div > div:nth-child(1) > div > h2{
+  text-align: center;
+}
+
+.modaal-container .content-section .text{ 
+  text-align: center;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-mobile-form .box-form {
+
+  box-shadow:none;
+
+}
+
+.login-mobile-form .side-image .hash-subtitle {
+  margin-bottom: 55px;
+  align-self: center;
+  justify-content: center;
+  margin-left: 0px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: -20px;
+}
+
+.login-mobile-form .side-image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0%;
+}
+.login-mobile-login. .padding-onlytop-md{
+  padding-top: 0px;
+}
+.modaal-inner-wrapper{
+  padding:0px !important;
+}
+
+.modaal-wrapper .title{
+  padding-top: 50px;
+}
+
+.modaal-wrapper .mobile-form{
+  padding-top: 0px !important;
+}
+
+#contact-form > div > div:nth-child(1) > label > sup{
+  display:none;
+}
+
+#contact-form > div > div:nth-child(2) > label > sup{
+  display: none;
+}
+
+#contact-form > div > div:nth-child(2) > div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modaal-wrapper h3{
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 14px;
+}
+.register-form-mobile h3{
+  font-size: 13px;
+}
+
+.uhp-staking-dividend .hash-subtitle{
+  margin-left: 0px;
+}
+
+.mobile-center{
+  text-align: center;
+}
+
+.mobile{
+  display: block;
+}
+
+.desktop{
+  display: none;
+}
+
+.mobile .text{
+  padding: 50px 50px 0 50px !important;
+}
+
+.mobile .text p:last-of-type{
+  margin-bottom:0px;
+}
+.gotobutton{
+  text-align: center;
+  margin-top: -10px;
+  padding-bottom: 125px;
+}
+
+.mobile .uhp-staking-dividend{
+  margin:0px;
+  text-align: center;
+}
+
+.desktop-mining-price{
+  display:none;
+}
+.mobile-mining-price{
+  display:block;
 }
 }
